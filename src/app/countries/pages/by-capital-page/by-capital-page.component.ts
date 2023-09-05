@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class ByCapitalPageComponent {
 
+
+  searchByCapital( termino: string ): void {
+    console.log('Desde ByCapitalPage');
+    console.log( { termino });
+  }
 }
